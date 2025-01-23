@@ -1,4 +1,4 @@
-irPara('inicio.html');
+irPara('menu/certificados.html');
 
 function irPara (pagina) {
     if (pagina === '#') {
