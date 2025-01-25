@@ -10,20 +10,16 @@
 </head>
 
 <body>
-  <div class="menuDiv">
-    <a href="#" style="color:white; text-decoration: none;"><h1>Meu Portifolio</h1></a>
-    <table class="menuTable">
-      <thead>
-        <tr>
-          <td class="inicio" onclick="irPara('menu/inicio.html')" style="border-radius: 0px 0px 0px 10px;">Início</td>
-          <td class="certificados" onclick="irPara('menu/certificados.html')">Certificados</td>
-          <td class="sobre" onclick="irPara('menu/sobre.html')" style="border-radius: 0px 0px 10px 0px;">Sobre</td>
-        </tr>
-      </thead>
-    </table>
-  </div>
-  <div class="conteudo">
-  </div>
+  <!– usar nav –>
+  <nav>
+    <a href="index.html" style="color:white; text-decoration: none;"><h1>Meu Portifolio</h1></a>
+    <ul>
+      <li onclick="irPara('menu/inicio.html')">Início</li>
+      <li onclick="irPara('menu/certificados.html')">Certificados</li>
+      <li onclick="irPara('menu/sobre.html')">Sobre</li>
+    </ul>
+  </nav>
+  <iframe src="menu/certificados.html" frameborder="0"></iframe>
 </body>
 
 </html>
